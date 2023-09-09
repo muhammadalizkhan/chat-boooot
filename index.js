@@ -10,6 +10,4 @@ const data = {
     date: DATE
 }
 jsonfile.writeFile(FILE_PATH, data); 
-
-//git commit --date=""
 simpleGit().add( [FILE_PATH] ).commit(DATE, {'--date': DATE }).push();
